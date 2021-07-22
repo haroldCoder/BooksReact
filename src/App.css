@@ -1,0 +1,101 @@
+:root{
+  --aqua: #00A9Dc;
+  --aqua-2: #87FBFF;
+  --blue: #8d85fc63; 
+  --black: #000;
+  --white: #FFF;
+}
+.app{
+  height: 50vh;
+  width: 100%;
+  background: #010617;
+}
+.nav{
+  margin-left: 120px;
+  width: 83%;
+  flex-flow: row;
+}
+.navbar{
+  background: #2C3965;
+  width: 100%;
+  justify-content: center;
+ border-radius: 25px;
+ height: 70px;
+}
+.navbar > h3{
+  color: var(--aqua);
+  margin-left: 78px;
+  cursor: context-menu;
+  font-family: 'Staatliches', cursive;
+  font-size: 35px;
+}
+.navbar > h3:hover{
+  background: var(--blue);
+  border-radius: 8px;
+  opacity: 0.9;
+  padding: 4px 7px 4px 7px;
+}
+.reels > .target > img{
+  width: 40vh;
+  height: 40vh;
+  margin: 6px 30px;
+}
+.reels > .target > h2{
+  color: var(--aqua-2);
+  text-align: center;
+  width: auto;
+  font-family: serif;
+}
+.container{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.imgs{
+  width: 8%;
+  height: 8%;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.titlen{
+  position: relative;
+  left: 30%;
+  color: var(--black);
+  font-family: fantasy;
+  font-size: 50px;
+  margin: 12px 0px;
+}
+.closs{
+  position: sticky;
+  left: 99%;
+  font-size: 50px;
+  color: var(--white);
+  opacity: 0.3;
+  margin-top: 13px;
+  cursor: pointer;
+}
+.closs:hover{
+  color: #ff2b06;
+  opacity: 0.9;
+}
+.cimgs{
+  width: 15%;
+  height: 25%;
+  border-radius: 50%;
+  margin: 5vh 7vh;
+}
+.panw{
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  width: 30%;
+  height: 60%;
+  background: #5ac257;
+}
+.palle{
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  background: #000000B8;
+  backdrop-filter: blur(6px);
+}
